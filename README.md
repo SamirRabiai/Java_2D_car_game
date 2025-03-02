@@ -13,18 +13,21 @@ Ce projet consiste en la création d’un **jeu de voiture rétro**, inspiré de
 
 ## 📂 Structure du projet
 ```md
-📦 Java_Car_Game  
- ├── 📄 README.md              # Documentation du projet  
+📦 Speedracer
+ ├── 📄 README.md              # Documentation du projet
  ├── 📂 src/                   # Code source du jeu  
  │   ├── 📂 model/             # Gestion des données et logique du jeu  
  │   ├── 📂 view/              # Interface graphique avec JavaFX  
- │   ├── 📂 controller/        # Gestion des interactions utilisateur  
- ├── 📂 assets/                # Images, sons et autres ressources  
- ├── 📄 CarGame.java           # Point d'entrée du programme  
- ├── 📄 GameLoop.java          # Gestion de la boucle de jeu  
- ├── 📄 ScoreManager.java      # Gestion du score et des checkpoints  
- ├── 📄 TimerThread.java       # Thread pour le chronomètre et la gestion du temps  
- ├── 📄 pom.xml                # Fichier de configuration Maven (si applicable)  
+ │   ├── 📂 controller/        # Gestion des interactions utilisateur
+ |   ├── 📂 ressources/        # Sprites des voitures et background
+ |   ├── 📄 Main.java
+ 
+ ├── 📂 out/                   #   
+ │   ├── 📂 model/             #   
+ │   ├── 📂 view/              # 
+ │   ├── 📂 controller/        #
+ |   ├── 📂 ressources/        #
+
 ```
 
 ## 🛠️ Technologies utilisées
